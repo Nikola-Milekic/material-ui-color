@@ -94,12 +94,10 @@ const ColorButton = ({
   let l = color.hsl[2] - 10;
   if (l < 30) l = color.hsl[2] + 50;
   const a = color.alpha;
-  const hoverColor = color;
   const classes = useStyles({
     width: size,
     minWidth: size,
     height: size,
-    hoverColor,
     borderColor,
     borderWidth,
     alpha: a,
