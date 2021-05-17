@@ -58,9 +58,6 @@ const useStyles = makeStyles({
       borderRadius: 4,
       padding: 0,
     },
-    '&:hover div': {
-      backgroundColor: props => props.hoverColor,
-    },
     '&:active': {
       boxShadow: 'none',
     },
